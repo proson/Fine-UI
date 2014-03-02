@@ -1,0 +1,13 @@
+
+a {
+    color: #fff;
+}
+
+a.x-tree-node-text {
+    text-decoration: none;
+    color: #fff;
+}
+
+.x-grid-cell-special {
+    background-image: none;
+}

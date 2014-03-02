@@ -1,0 +1,86 @@
+/*
+ * 
+ * Syntax Highlighting Extension
+ * 
+ * by Alexander Schuc
+ * http://blog.furred.net
+ * 
+ * for BlogEngine.net (http://www.dotnetblogengine.net)
+ * 
+ * using syntax highlighter by Wilco Bauwer
+ * http://www.wilcob.com/Wilco/Toolbox/SyntaxHighlighter.aspx
+ * 
+ * licensed under Ms-PL
+ * http://www.microsoft.com/resources/sharedsource/licensingbasics/permissivelicense.mspx
+ * 
+ * icon (page_white_code.png) by famfamfam
+ * http://www.famfamfam.com/lab/icons/silk/
+ * 
+ * v0.1.1   - 15. Aug. 2007 - added line numbers
+ * v0.1     - 14. Aug. 2007 - Initial Version
+ * 
+ * 
+ * Installation:
+ * 
+ *  - copy Wilco.SyntaxHighlighter.dll into Bin
+ *  - copy SyntaxHighlightingExtension.cs into App_Code/Extensions
+ *  - copy SyntaxHighlightTemplate.txt to App_Data/furred
+ *    the directory 'furred' will be used by further extensions provided by me
+ *  - use it! :)
+ *  
+ * Additional steps for default style:
+ * 
+ *  - for the default template copy page_white_code.png into /pics and adjust image url!
+ *  - add the CSS code from DefaultStyle.css to your css file
+ *  
+ * Usage examples:
+ * 
+ *  - [code=csharp] your code! [/code]
+ *  - [code=csharp;ln=on;title] bla bla [/code]
+ *  - [code=csharp;A optional title!] your code! [/code]
+ *  - [code=anyOtherSupportedLanguage] your code! [/code]
+ *  
+ * Replacements in template file:
+ * 
+ *  {0} - ID     - can be used for javascript stuff
+ *  {1} - Name   - Fullname of the highlighted language
+ *                 or the used tag when language isn't supported
+ *  {2} - Title  - Optional title from tag, or empty string
+ *  {3} - Code   - the highlighted code
+ *                 or the original text inside the tags when the language isn't supported
+ *
+ * Known issues:
+ * 
+ *  Tiny MCE can cause problems, because it reformats your entries when switching from html view!
+ * 
+ * Supported tags/languages
+ *    
+ *    Use this name for       
+ *    better performance      These tags are working too
+ *    
+ *  - ASPX                  - aspx aspnet aspx ascx asax ashx
+ *  - C                     - c
+ *  - COBOL                 - cob
+ *  - ColdFusion            - cfm coldfusion
+ *  - CPP                   - cpp c++
+ *  - C#                    - csharp c# cs
+ *  - CSS                   - css
+ *  - Eiffel                - e
+ *  - Fortran               - for
+ *  - Haskell               - hs
+ *  - Java                  - java
+ *  - JavaScript            - js javascript
+ *  - JScript               - jscript
+ *  - Mercury               - m
+ *  - MSIL                  - pe
+ *  - Pascal                - pas
+ *  - Perl                  - pl
+ *  - PHP                   - php php3
+ *  - Python                - py
+ *  - Ruby                  - ruby
+ *  - SQL                   - sql
+ *  - VisualBasic           - vb
+ *  - VisualBasicScript     - vbs
+ *  - XML                   - xml html htm
+ * 
+ */

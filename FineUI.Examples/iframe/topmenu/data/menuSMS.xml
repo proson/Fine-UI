@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tree>
+    <TreeNode Text="气象灾害短信信息">
+        <TreeNode Text="气象灾害短信信息申请" Target="mainframe" NavigateUrl="./html/sms-1.html">
+        </TreeNode>
+        <TreeNode Text="气象灾害短信信息申请查看" Target="mainframe" NavigateUrl="./html/sms-2.html" >
+        </TreeNode>
+        <TreeNode Text="气象灾害短信信息审核" Target="mainframe" NavigateUrl="./html/sms-3.html" >
+        </TreeNode>
+    </TreeNode>
+    <TreeNode Text="突发事件短信信息">
+        <TreeNode Text="突发事件短信信息申请" Target="mainframe" NavigateUrl="./html/sms-4.html">
+        </TreeNode>
+        <TreeNode Text="突发事件短信信息申请查看" Target="mainframe" NavigateUrl="./html/sms-5.html" >
+        </TreeNode>
+    </TreeNode>
+</Tree>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tree>
+    <TreeNode Text="信件管理">
+        <TreeNode Text="邮件接收管理" Target="mainframe" NavigateUrl="./html/sys-1.html">
+        </TreeNode>
+        <TreeNode Text="邮件群组管理" Target="mainframe" NavigateUrl="./html/sys-2.html" >
+        </TreeNode>
+    </TreeNode>
+    <TreeNode Text="短信管理">
+        <TreeNode Text="短信接收管理" Target="mainframe" NavigateUrl="./html/sys-3.html">
+        </TreeNode>
+        <TreeNode Text="短信群组管理" Target="mainframe" NavigateUrl="./html/sys-4.html">
+        </TreeNode>
+    </TreeNode>
+    <TreeNode Text="用户管理">
+        <TreeNode Text="用户管理" Target="mainframe" NavigateUrl="./html/sys-5.html">
+        </TreeNode>
+    </TreeNode>
+</Tree>

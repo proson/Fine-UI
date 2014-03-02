@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tree>
+  <TreeNode Text="基本用法">
+    <TreeNode Text="配置信息">
+      <TreeNode Text="发布历史" NavigateUrl="http://fineui.com/version/index.html?from=demo">
+      </TreeNode>
+      <TreeNode Text="版本发布周期" NavigateUrl="~/config/release_time_chart.htm" >
+      </TreeNode>
+      <TreeNode Text="配置 Web.config" NavigateUrl="~/config/modify_webconfig.htm" >
+      </TreeNode>
+      <TreeNode Text="内置图标" NavigateUrl="~/config/icons.htm" >
+      </TreeNode>
+      <TreeNode Text="安装工具箱" NavigateUrl="~/config/install_toolbox.htm" >
+      </TreeNode>
+      <TreeNode Text="IIS6中启用GZIP压缩" NavigateUrl="~/config/enable_gzip_iis6.htm" >
+      </TreeNode>
+      <TreeNode Text="AJAX 属性列表" NavigateUrl="~/config/ajax.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="你好 FineUI" NavigateUrl="~/basic/hello.aspx" >
+    </TreeNode>
+    <TreeNode Text="你好 AspNet" NavigateUrl="~/basic/hello_aspnet.aspx">
+    </TreeNode>
+    <TreeNode Text="登录页面" NavigateUrl="~/basic/login.aspx" >
+    </TreeNode>
+    <TreeNode Text="登录页面（验证码）" NavigateUrl="~/basic/login_captcha.aspx" >
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="表单控件">
+    <TreeNode Text="按钮控件">
+      <TreeNode Text="简单按钮" NavigateUrl="~/button/button.aspx" >
+      </TreeNode>
+      <TreeNode Text="按钮图标" NavigateUrl="~/button/button_icon.aspx" >
+      </TreeNode>
+      <TreeNode Text="按钮的点击事件" NavigateUrl="~/button/button_click.aspx" >
+      </TreeNode>
+      <TreeNode Text="链接按钮" NavigateUrl="~/button/button_linkbutton.aspx" >
+      </TreeNode>
+      <TreeNode Text="菜单按钮" NavigateUrl="~/button/button_menu.aspx" >
+      </TreeNode>
+      <TreeNode Text="菜单按钮（MenuID属性）" NavigateUrl="~/button/button_menu_menuid.aspx" >
+      </TreeNode>
+      <TreeNode Text="自定义按钮" NavigateUrl="~/button/button_custom.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="基本元素">
+      <TreeNode Text="文本标签" NavigateUrl="~/form/label.aspx" >
+      </TreeNode>
+      <TreeNode Text="超链接" NavigateUrl="~/form/hyperlink.aspx" >
+      </TreeNode>
+      <TreeNode Text="图片控件" NavigateUrl="~/form/image.aspx" >
+      </TreeNode>
+      <TreeNode Text="提示信息" NavigateUrl="~/form/tooltip.aspx" >
+      </TreeNode>
+      <TreeNode Text="日期控件" NavigateUrl="~/form/calendar.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="输入框">
+      <TreeNode Text="文本框" NavigateUrl="~/form/textbox.aspx" >
+      </TreeNode>
+      <TreeNode Text="文本框自动回发" NavigateUrl="~/form/textbox_autopostback.aspx" >
+      </TreeNode>
+      <TreeNode Text="自动扩展高度" NavigateUrl="~/form/textarea_autogrow.aspx" >
+      </TreeNode>
+      <TreeNode Text="富文本编辑器" NavigateUrl="~/form/htmleditor.aspx" >
+      </TreeNode>
+      <TreeNode Text="触发器输入框" NavigateUrl="~/form/triggerbox.aspx" >
+      </TreeNode>
+      <TreeNode Text="两个触发器输入框" NavigateUrl="~/form/twintriggerbox.aspx" >
+      </TreeNode>
+      <TreeNode Text="数字输入框" NavigateUrl="~/form/numberbox.aspx" >
+      </TreeNode>
+      <TreeNode Text="日期选择框" NavigateUrl="~/form/datepicker.aspx" >
+      </TreeNode>
+      <TreeNode Text="日期选择框（自动回发）" NavigateUrl="~/form/datepicker_autopostback.aspx" >
+      </TreeNode>
+      <TreeNode Text="日期选择框（限制范围）" NavigateUrl="~/form/datepicker_range.aspx" >
+      </TreeNode>
+      <TreeNode Text="时间选择框" NavigateUrl="~/form/timepicker.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="选择框">
+      <TreeNode Text="复选框" NavigateUrl="~/form/checkbox.aspx" >
+      </TreeNode>
+      <TreeNode Text="复选框列表" NavigateUrl="~/form/checkboxlist.aspx" >
+      </TreeNode>
+      <TreeNode Text="更新复选框列表" NavigateUrl="~/form/checkboxlist_update.aspx" >
+      </TreeNode>
+      <TreeNode Text="单选按钮" NavigateUrl="~/form/radiobutton.aspx" >
+      </TreeNode>
+      <TreeNode Text="单选按钮列表" NavigateUrl="~/form/radiobuttonlist.aspx" >
+      </TreeNode>
+      <TreeNode Text="更新单选按钮列表" NavigateUrl="~/form/radiobuttonlist_update.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="表单验证">
+      <TreeNode Text="表单验证" NavigateUrl="~/form/form_compare.aspx" >
+      </TreeNode>
+      <TreeNode Text="验证多个表单" NavigateUrl="~/form/form.aspx" >
+      </TreeNode>
+      <TreeNode Text="服务器端验证" NavigateUrl="~/form/form_validate.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="动态创建表单元素">
+      <TreeNode Text="动态创建表单元素" NavigateUrl="~/form/form_dynamic.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="上传控件">
+      <TreeNode Text="上传控件" NavigateUrl="~/form/fileupload.aspx" >
+      </TreeNode>
+      <TreeNode Text="上传控件（自动回发）" NavigateUrl="~/form/fileupload_autopostback.aspx" >
+      </TreeNode>
+      <TreeNode Text="工具栏中的上传控件" NavigateUrl="~/form/fileupload_toolbar.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="表单布局">
+      <TreeNode Text="按钮与表单" NavigateUrl="~/form/layout_panel.aspx" >
+      </TreeNode>
+      <TreeNode Text="自定义SimpleForm布局" NavigateUrl="~/form/layout_panel2.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="下拉列表控件">
+      <TreeNode Text="简单下拉列表" NavigateUrl="~/dropdownlist/dropdownlist.aspx" >
+      </TreeNode>
+      <TreeNode Text="下拉列表（选项值可为空）" NavigateUrl="~/dropdownlist/dropdownlist_emptyvalue.aspx" >
+      </TreeNode>
+      <TreeNode Text="下拉列表（可过滤，强制选择）" NavigateUrl="~/dropdownlist/dropdownlist_enableedit.aspx" >
+      </TreeNode>
+      <TreeNode Text="下拉列表（不强制选择）" NavigateUrl="~/dropdownlist/dropdownlist_forceselection.aspx" >
+      </TreeNode>
+      <TreeNode Text="模拟树的下拉列表" NavigateUrl="~/dropdownlist/dropdownlist_simulate_tree.aspx" >
+      </TreeNode>
+      <TreeNode Text="中国省市县联动" NavigateUrl="~/dropdownlist/shengshixian.aspx" >
+      </TreeNode>
+      <TreeNode Text="数据绑定">
+        <TreeNode Text="绑定到简单列表" NavigateUrl="~/dropdownlist/databind/dropdownlist_simplelist.aspx" >
+        </TreeNode>
+        <TreeNode Text="绑定到复合列表" NavigateUrl="~/dropdownlist/databind/dropdownlist_compositelist.aspx" >
+        </TreeNode>
+        <TreeNode Text="绑定到 DataTable" NavigateUrl="~/dropdownlist/databind/dropdownlist_datatable.aspx" >
+        </TreeNode>
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="其他">
+      <TreeNode Text="重置表单" NavigateUrl="~/form/form_reset.aspx" >
+      </TreeNode>
+      <TreeNode Text="隐藏表单字段" NavigateUrl="~/form/form_hide_field.aspx" >
+      </TreeNode>
+      <TreeNode Text="按钮水平居中" NavigateUrl="~/form/form_center_button.aspx" >
+      </TreeNode>
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="表格控件">
+    <TreeNode Text="FineUI 表格" NavigateUrl="~/grid/grid.aspx" >
+    </TreeNode>
+    <TreeNode Text="AspNet 表格" NavigateUrl="~/grid/grid_aspnet.aspx" >
+    </TreeNode>
+    <TreeNode Text="分页与排序">
+      <TreeNode Text="排序" NavigateUrl="~/grid/grid_sorting.aspx" >
+      </TreeNode>
+      <TreeNode Text="内存分页" NavigateUrl="~/grid/grid_paging.aspx" >
+      </TreeNode>
+      <TreeNode Text="数据库分页" NavigateUrl="~/grid/grid_paging_database.aspx" >
+      </TreeNode>
+      <TreeNode Text="内存分页与排序" NavigateUrl="~/grid/grid_paging_sorting.aspx" >
+      </TreeNode>
+      <TreeNode Text="数据库分页与排序" NavigateUrl="~/grid/grid_paging_database_sorting.aspx" >
+      </TreeNode>
+      <TreeNode Text="内存分页（跨页保持选中行）" NavigateUrl="~/grid/grid_paging_selection.aspx" >
+      </TreeNode>
+      <TreeNode Text="数据库分页（跨页保持选中行）" NavigateUrl="~/grid/grid_paging_database_selection.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="序号列">
+      <TreeNode Text="序号列与内存分页" NavigateUrl="~/grid/grid_rownumber_paging.aspx" >
+      </TreeNode>
+      <TreeNode Text="序号列与数据库分页" NavigateUrl="~/grid/grid_rownumber_paging_database.aspx" >
+      </TreeNode>
+      <TreeNode Text="序号列的宽度" NavigateUrl="~/grid/grid_rownumber_width.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="扩展列">
+      <TreeNode Text="全选列" NavigateUrl="~/grid/grid_checkall.aspx" >
+      </TreeNode>
+      <TreeNode Text="全选列（只能通过全选框选中行）" NavigateUrl="~/grid/grid_checkall_only.aspx" >
+      </TreeNode>
+      <TreeNode Text="行扩展列" NavigateUrl="~/grid/grid_rowexpander.aspx" >
+      </TreeNode>
+      <TreeNode Text="行扩展列（展开全部）" NavigateUrl="~/grid/grid_rowexpander_expandall2.aspx" >
+      </TreeNode>
+      <TreeNode Text="行扩展列（展开全部，客户端实现）" NavigateUrl="~/grid/grid_rowexpander_expandall.aspx" >
+      </TreeNode>
+      <TreeNode Text="弹出窗体列" NavigateUrl="~/grid/grid_iframe.aspx" >
+      </TreeNode>
+      <TreeNode Text="模拟树列" NavigateUrl="~/grid/grid_simulate_tree.aspx" >
+      </TreeNode>
+      <TreeNode Text="模拟树列 (内存分页)" NavigateUrl="~/grid/grid_simulate_tree_paging.aspx" >
+      </TreeNode>
+      <TreeNode Text="模拟树列（数据库分页）" NavigateUrl="~/grid/grid_simulate_tree_database_paging.aspx" >
+      </TreeNode>
+      <TreeNode Text="模拟树列（数据库分页，下拉列表定位省份）" NavigateUrl="~/grid/grid_simulate_tree_database_paging_dropdownlist.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="事件">
+      <TreeNode Text="行内按钮事件" NavigateUrl="~/grid/grid_rowcommand.aspx" >
+      </TreeNode>
+      <TreeNode Text="行绑定事件" NavigateUrl="~/grid/grid_rowdatabound.aspx" >
+      </TreeNode>
+      <TreeNode Text="行预绑定事件" NavigateUrl="~/grid/grid_prerowdatabound.aspx" >
+      </TreeNode>
+      <TreeNode Text="行单击回发事件" NavigateUrl="~/grid/grid_rowclick.aspx">
+      </TreeNode>
+      <TreeNode Text="行双击回发事件" NavigateUrl="~/grid/grid_rowdoubleclick.aspx">
+      </TreeNode>
+      <TreeNode Text="行选中事件" NavigateUrl="~/grid/grid_rowselect.aspx">
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="复选框列">
+      <TreeNode Text="复选框列" NavigateUrl="~/grid/grid_checkboxfield.aspx" >
+      </TreeNode>
+      <TreeNode Text="复选框列（自动回发）" NavigateUrl="~/grid/grid_checkboxfield_autopostback.aspx" >
+      </TreeNode>
+      <TreeNode Text="全选复选框列" NavigateUrl="~/grid/grid_checkboxfield_rowcheckall.aspx" >
+      </TreeNode>
+      <TreeNode Text="全选复选框列（客户端实现）" NavigateUrl="~/grid/grid_checkboxfield_rowcheckall_clientside.aspx" >
+      </TreeNode>
+      <TreeNode Text="全选复选框列（右键菜单）" NavigateUrl="~/grid/grid_checkboxfield_rowcheckall_contextmenu.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="模板列">
+      <TreeNode Text="编辑文本框" NavigateUrl="~/grid/grid_edit.aspx" >
+      </TreeNode>
+      <TreeNode Text="编辑下拉列表" NavigateUrl="~/grid/grid_edit_dropdownlist.aspx" >
+      </TreeNode>
+      <TreeNode Text="编辑下拉列表（后台绑定数据）" NavigateUrl="~/grid/grid_edit_dropdownlist2.aspx" >
+      </TreeNode>
+      <TreeNode Text="后台更新下拉列表" NavigateUrl="~/grid/grid_edit_dropdownlist_update.aspx" >
+      </TreeNode>
+      <TreeNode Text="编辑单选框列表" NavigateUrl="~/grid/grid_edit_radiobuttonlist.aspx" >
+      </TreeNode>
+      <TreeNode Text="编辑复选框列表" NavigateUrl="~/grid/grid_edit_checkboxlist.aspx" >
+      </TreeNode>
+      <TreeNode Text="比较两个模板列的值" NavigateUrl="~/grid/grid_edit_compare.aspx" >
+      </TreeNode>
+      <TreeNode Text="下拉列表同步到文本框" NavigateUrl="~/grid/grid_edit_dropdownlist_textbox.aspx" >
+      </TreeNode>
+      <TreeNode Text="自动保存用户输入的值" NavigateUrl="~/grid/grid_edit_save_auto.aspx" >
+      </TreeNode>
+      <TreeNode Text="手动保存用户输入的值" NavigateUrl="~/grid/grid_edit_save_manual.aspx" >
+      </TreeNode>
+      <TreeNode Text="遍历表格内所有输入框（纵向）" NavigateUrl="~/grid/grid_edit_enterkey_v.aspx" >
+      </TreeNode>
+      <TreeNode Text="遍历表格内所有输入框（横向）" NavigateUrl="~/grid/grid_edit_enterkey_h.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="多表头">
+      <TreeNode Text="多表头" NavigateUrl="~/grid/grid_groupheader.aspx" >
+      </TreeNode>
+      <TreeNode Text="多表头与排序" NavigateUrl="~/grid/grid_groupheader_sort.aspx" >
+      </TreeNode>
+      <TreeNode Text="多表头与标题栏菜单排序" NavigateUrl="~/grid/grid_groupheader_sort_hdmenu.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="动态创建列">
+      <TreeNode Text="动态创建的列" NavigateUrl="~/grid/grid_dynamic_columns.aspx" >
+      </TreeNode>
+      <TreeNode Text="动态创建的模板列" NavigateUrl="~/grid/grid_dynamic_columns2.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="导出Excel文件">
+      <TreeNode Text="GridView导出为Excel文件" NavigateUrl="~/grid/grid_excel_aspnet.aspx" >
+      </TreeNode>
+      <TreeNode Text="Grid导出为Excel文件" NavigateUrl="~/grid/grid_excel.aspx" >
+      </TreeNode>
+      <TreeNode Text="Grid导出为Excel文件（动态创建的模版列）" NavigateUrl="~/grid/grid_excel_dynamic_columns.aspx" >
+      </TreeNode>
+      <TreeNode Text="Grid导出为Excel文件（选择需要导出的列）" NavigateUrl="~/grid/grid_excel_selectcolumns.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="分页工具条">
+      <TreeNode Text="重新绑定数据" NavigateUrl="~/grid/grid_pageitems.aspx" >
+      </TreeNode>
+      <TreeNode Text="显示隐藏行扩展列" NavigateUrl="~/grid/grid_pageitems_rowexpander.aspx" >
+      </TreeNode>
+      <TreeNode Text="改变每页记录数" NavigateUrl="~/grid/grid_pageitems_pagesize.aspx" >
+      </TreeNode>
+      <TreeNode Text="改变每页记录数（数据库分页）" NavigateUrl="~/grid/grid_pageitems_pagesize_database.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="列宽度">
+      <TreeNode Text="固定各列宽度" NavigateUrl="~/grid/grid_width.aspx" >
+      </TreeNode>
+      <TreeNode Text="自适应列" NavigateUrl="~/grid/grid_width_expandunusedspace.aspx" >
+      </TreeNode>
+      <TreeNode Text="列宽度自适应" NavigateUrl="~/grid/grid_width_forcefit.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="标题栏菜单">
+      <TreeNode Text="显示隐藏列" NavigateUrl="~/grid/grid_hdmenu_hidecolumn.aspx" >
+      </TreeNode>
+      <TreeNode Text="排序" NavigateUrl="~/grid/grid_hdmenu_sorting.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="合计行">
+      <TreeNode Text="合计行" NavigateUrl="~/grid/grid_summary2.aspx" >
+      </TreeNode>
+      <TreeNode Text="合计行（当前页合计）" NavigateUrl="~/grid/grid_summary2_currentpage.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="单元格编辑">
+      <TreeNode Text="单元格编辑" NavigateUrl="~/grid/grid_editor_cell.aspx" >
+      </TreeNode>
+      <TreeNode Text="单元格编辑（客户端获取下拉列表的值）" NavigateUrl="~/grid/grid_editor_cell_renderfunction.aspx" >
+      </TreeNode>
+      <TreeNode Text="单元格编辑（后台绑定下拉列表）" NavigateUrl="~/grid/grid_editor_cell_databind.aspx" >
+      </TreeNode>
+      <TreeNode Text="单元格编辑（删除行）" NavigateUrl="~/grid/grid_editor_cell_delete.aspx" >
+      </TreeNode>
+      <TreeNode Text="单元格编辑（新增行）" NavigateUrl="~/grid/grid_editor_cell_new.aspx" >
+      </TreeNode>
+      <TreeNode Text="单元格编辑（新增行+删除行）" NavigateUrl="~/grid/grid_editor_cell_new_delete.aspx" >
+      </TreeNode>
+      <TreeNode Text="单元格编辑（失去焦点事件）" NavigateUrl="~/grid/grid_editor_cell_afteredit.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="其他">
+      <TreeNode Text="主从表联动" NavigateUrl="~/grid/grid_twogrid.aspx" >
+      </TreeNode>
+      <TreeNode Text="改变行背景色" NavigateUrl="~/grid/grid_rowcolor.aspx" >
+      </TreeNode>
+      <TreeNode Text="列文本的显示位置" NavigateUrl="~/grid/grid_centercolumn.aspx" >
+      </TreeNode>
+      <TreeNode Text="显示隐藏列" NavigateUrl="~/grid/grid_hidecolumn.aspx" >
+      </TreeNode>
+      <TreeNode Text="绑定到二级属性" NavigateUrl="~/grid/grid_complex_property.aspx" >
+      </TreeNode>
+      <TreeNode Text="选择表格内文字" NavigateUrl="~/grid/grid_textselection.aspx" >
+      </TreeNode>
+      <TreeNode Text="文字垂直靠上显示" NavigateUrl="~/grid/grid_text_top.aspx" >
+      </TreeNode>
+      <TreeNode Text="列分割线" NavigateUrl="~/grid/grid_column_lines.aspx" >
+      </TreeNode>
+      <TreeNode Text="表格为空的提示" NavigateUrl="~/grid/grid_empty_text.aspx" >
+      </TreeNode>
+      <TreeNode Text="自动换行" NavigateUrl="~/grid/grid_line_wrap.aspx" >
+      </TreeNode>
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="树控件">
+    <TreeNode Text="简单树控件" NavigateUrl="~/tree/tree.aspx" >
+    </TreeNode>
+    <TreeNode Text="图标与链接" NavigateUrl="~/tree/tree_icon.aspx" >
+    </TreeNode>
+    <TreeNode Text="延迟加载的树控件" NavigateUrl="~/tree/tree_ajax.aspx" >
+    </TreeNode>
+    <TreeNode Text="数据绑定">
+      <TreeNode Text="绑定到 XmlDocument" NavigateUrl="~/tree/databind/tree_document.aspx" >
+      </TreeNode>
+      <TreeNode Text="绑定到 XmlDataSource" NavigateUrl="~/tree/databind/tree_datasource.aspx" >
+      </TreeNode>
+      <TreeNode Text="绑定到 SiteMap" NavigateUrl="~/tree/databind/tree_sitemap.aspx" >
+      </TreeNode>
+      <TreeNode Text="绑定到 DataTable" NavigateUrl="~/tree/databind/tree_datatable.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="复选框">
+      <TreeNode Text="简单复选框" NavigateUrl="~/tree/checkbox/tree_checked.aspx" >
+      </TreeNode>
+      <TreeNode Text="全选与反选" NavigateUrl="~/tree/checkbox/tree_checkall.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="行选择">
+      <TreeNode Text="选中一行" NavigateUrl="~/tree/select/tree_select.aspx" >
+      </TreeNode>
+      <TreeNode Text="选中多行" NavigateUrl="~/tree/select/tree_multi_select.aspx" >
+      </TreeNode>
+      <TreeNode Text="选中行的回发事件" NavigateUrl="~/tree/select/tree_nodecommand.aspx" >
+      </TreeNode>
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="选项卡控件">
+    <TreeNode Text="基本用法" NavigateUrl="~/tabstrip/tabstrip.aspx" >
+    </TreeNode>
+    <TreeNode Text="自动回发" NavigateUrl="~/tabstrip/tabstrip_autopostback.aspx" >
+    </TreeNode>
+    <TreeNode Text="关闭按钮" NavigateUrl="~/tabstrip/tabstrip_enableclose.aspx"  >
+    </TreeNode>
+    <TreeNode Text="动态添加标签" NavigateUrl="~/tabstrip/tabstrip_addtab.aspx"  >
+    </TreeNode>
+    <TreeNode Text="内嵌 IFrame" NavigateUrl="~/tabstrip/tabstrip_iframe.aspx" >
+    </TreeNode>
+    <TreeNode Text="内嵌 IFrame（在IFrame内启用标签）" NavigateUrl="~/tabstrip/tabstrip_iframe_disabled.aspx" >
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="手风琴控件">
+    <TreeNode Text="基本用法" NavigateUrl="~/accordion/accordion.aspx" >
+    </TreeNode>
+    <TreeNode Text="自动回发" NavigateUrl="~/accordion/accordion_autopostback.aspx" >
+    </TreeNode>
+    <TreeNode Text="手风琴+树控件" NavigateUrl="~/accordion/accordion_tree.aspx" >
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="面板与窗体">
+    <TreeNode Text="面板" NavigateUrl="~/window/panel.aspx" >
+    </TreeNode>
+    <TreeNode Text="分组面板" NavigateUrl="~/window/group_panel.aspx" >
+    </TreeNode>
+    <TreeNode Text="面板的折叠事件" NavigateUrl="~/window/panel_collapse.aspx" >
+    </TreeNode>
+    <TreeNode Text="窗体" NavigateUrl="~/window/window.aspx" >
+    </TreeNode>
+    <TreeNode Text="窗体与工具栏" NavigateUrl="~/window/window_toolbar.aspx" >
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="页面布局">
+    <TreeNode Text="布局 - Fit" NavigateUrl="~/layout/fit.aspx" >
+    </TreeNode>
+    <TreeNode Text="布局 - Anchor" NavigateUrl="~/layout/anchor.aspx" >
+    </TreeNode>
+    <TreeNode Text="布局 - Column" NavigateUrl="~/layout/column.aspx" >
+    </TreeNode>
+    <TreeNode Text="布局 - Absolute" NavigateUrl="~/layout/absolute.aspx"  >
+    </TreeNode>
+    <TreeNode Text="布局 - Table" NavigateUrl="~/layout/table.aspx"  >
+    </TreeNode>
+    <TreeNode Text="布局 - HBox" NavigateUrl="~/layout/hbox.aspx"  >
+    </TreeNode>
+    <TreeNode Text="布局 - VBox" NavigateUrl="~/layout/vbox.aspx"  >
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="内联框架">
+    <TreeNode Text="弹出窗体（本页面或父页面）" NavigateUrl="~/iframe/button_iframe.aspx" >
+    </TreeNode>
+    <TreeNode Text="表格与编辑窗体" NavigateUrl="~/iframe/grid_iframe.aspx" >
+    </TreeNode>
+    <TreeNode Text="子窗口向父窗口传值" NavigateUrl="~/iframe/passvalue_iframe.aspx" >
+    </TreeNode>
+    <TreeNode Text="新窗口中选择省份一" NavigateUrl="~/iframe/selectprovince1.aspx" >
+    </TreeNode>
+    <TreeNode Text="新窗口中选择省份二" NavigateUrl="~/iframe/selectprovince2.aspx" >
+    </TreeNode>
+    <TreeNode Text="新窗口中选择省份三" NavigateUrl="~/iframe/selectprovince3.aspx" >
+    </TreeNode>
+    <TreeNode Text="触发器输入框（传值）" NavigateUrl="~/iframe/triggerbox_iframe.aspx" >
+    </TreeNode>
+    <TreeNode Text="窗体中的窗体" NavigateUrl="~/iframe/iframe_iframe.aspx">
+    </TreeNode>
+    <TreeNode Text="回发父页面" NavigateUrl="~/iframe/parent_postback_top.aspx" >
+    </TreeNode>
+    <TreeNode Text="回发父页面2" NavigateUrl="~/iframe/parent_postback.aspx" >
+    </TreeNode>
+    <TreeNode Text="顶部菜单框架（左侧树）" NavigateUrl="~/iframe/topmenu/default.aspx" >
+    </TreeNode>
+    <TreeNode Text="顶部菜单框架（左侧IFrame中的树）" NavigateUrl="~/iframe/topmenu2/default.aspx" >
+    </TreeNode>
+    <TreeNode Text="顶部菜单框架（左侧IFrame中的手风琴）" NavigateUrl="~/iframe/topmenu3/default.aspx" >
+    </TreeNode>
+    <TreeNode Text="顶部菜单框架（右侧选项卡）" NavigateUrl="~/iframe/topmenu4/default.aspx" >
+    </TreeNode>
+    <TreeNode Text="窗体关闭前的确认对话框" NavigateUrl="~/iframe/window.aspx" >
+    </TreeNode>
+    <TreeNode Text="保存按钮放在窗体工具栏中" NavigateUrl="~/iframe/window2.aspx" >
+    </TreeNode>
+  </TreeNode>
+  <TreeNode Text="其它">
+    <TreeNode Text="ASP.NET控件">
+      <TreeNode Text="ASP.NET 控件" NavigateUrl="~/aspnet/aspnet.aspx" >
+      </TreeNode>
+      <TreeNode Text="Label与Literal的区别" NavigateUrl="~/aspnet/aspnet_literal.aspx" >
+      </TreeNode>
+      <TreeNode Text="FCKEditor控件">
+        <TreeNode Text="FCKEditor控件" NavigateUrl="~/aspnet/fckeditor.aspx" >
+        </TreeNode>
+      </TreeNode>
+      <TreeNode Text="CKEditor控件">
+        <TreeNode Text="CKEditor控件" NavigateUrl="~/aspnet/ckeditor.aspx" >
+        </TreeNode>
+      </TreeNode>
+      <TreeNode Text="UEditor控件">
+        <TreeNode Text="UEditor控件" NavigateUrl="~/aspnet/ueditor.aspx" >
+        </TreeNode>
+        <TreeNode Text="多个UEditor控件" NavigateUrl="~/aspnet/ueditor_two.aspx" >
+        </TreeNode>
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="用户控件">
+      <TreeNode Text="用户控件" NavigateUrl="~/usercontrol/userinfo.aspx" >
+      </TreeNode>
+      <TreeNode Text="动态添加用户控件" NavigateUrl="~/usercontrol/userinfo_dynamic.aspx" >
+      </TreeNode>
+      <TreeNode Text="用户控件与布局" NavigateUrl="~/usercontrol/userinfo2.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="工具栏和菜单">
+      <TreeNode Text="内联菜单" NavigateUrl="~/toolbar/menu.aspx" >
+      </TreeNode>
+      <TreeNode Text="动态添加工具栏菜单" NavigateUrl="~/toolbar/menu_dynamic.aspx" >
+      </TreeNode>
+      <TreeNode Text="向工具栏中动态添加按钮" NavigateUrl="~/toolbar/menu_dynamic2.aspx" >
+      </TreeNode>
+      <TreeNode Text="工具栏与IFrame页面" NavigateUrl="~/toolbar/toolbar_iframe.aspx">
+      </TreeNode>
+      <TreeNode Text="单选框与复选框菜单" NavigateUrl="~/toolbar/menucheckbox.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="自动补全组件">
+      <TreeNode Text="内联数据" NavigateUrl="~/autocomplete/inline.aspx" >
+      </TreeNode>
+      <TreeNode Text="自动补全邮件地址" NavigateUrl="~/autocomplete/email.aspx" >
+      </TreeNode>
+      <TreeNode Text="多行显示补全数据" NavigateUrl="~/autocomplete/custom_display.aspx" >
+      </TreeNode>
+      <TreeNode Text="输入逗号分隔的多个值" NavigateUrl="~/autocomplete/multi_values.aspx" >
+      </TreeNode>
+      <TreeNode Text="输入多值（数据来自远程服务器）" NavigateUrl="~/autocomplete/multi_values_remote.aspx" >
+      </TreeNode>
+      <TreeNode Text="客户端缓存（数据来自远程服务器）" NavigateUrl="~/autocomplete/remote_with_cache.aspx" >
+      </TreeNode>
+    </TreeNode>
+    <TreeNode Text="定时器" NavigateUrl="~/other/timer.aspx" >
+    </TreeNode>
+    <TreeNode Text="自定义回发" NavigateUrl="~/other/custom_postback.aspx">
+    </TreeNode>
+    <TreeNode Text="响应确认对话框的按钮" NavigateUrl="~/other/confirm_cancel.aspx">
+    </TreeNode>
+    <TreeNode Text="响应确认对话框的按钮（推荐做法）" NavigateUrl="~/other/confirm_cancel2.aspx">
+    </TreeNode>
+    <TreeNode Text="文本框的keypress事件" NavigateUrl="~/other/custom_postback.aspx">
+    </TreeNode>
+    <TreeNode Text="CssClass属性" NavigateUrl="~/other/cssstyle.aspx">
+    </TreeNode>
+    <TreeNode Text="向父页面添加选项卡" NavigateUrl="~/other/addtab.aspx">
+    </TreeNode>
+    <TreeNode Text="Ajax提示信息" NavigateUrl="~/other/ajax_loading.aspx">
+    </TreeNode>
+    <TreeNode Text="自定义对话框图标" NavigateUrl="~/other/alert.aspx">
+    </TreeNode>
+  </TreeNode>
+</Tree>

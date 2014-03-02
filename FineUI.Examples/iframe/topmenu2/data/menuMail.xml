@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tree>
+    <TreeNode Text="突发事件申请管理">
+        <TreeNode Text="突发事件申请" Target="mainframe" NavigateUrl="./html/mail-1.html">
+        </TreeNode>
+        <TreeNode Text="突发事件收件箱" Target="mainframe" NavigateUrl="./html/mail-2.html" >
+        </TreeNode>
+        <TreeNode Text="突发事件发件箱" Target="mainframe" NavigateUrl="./html/mail-3.html" >
+        </TreeNode>
+    </TreeNode>
+    <TreeNode Text="通讯录管理">
+        <TreeNode Text="通讯录" Target="mainframe" NavigateUrl="./html/mail-4.html">
+        </TreeNode>
+    </TreeNode>
+</Tree>

@@ -1,0 +1,200 @@
+
+.x-toolbar.x-toolbar-default.x-docked-top {
+    border-bottom-color: #ccc!important;
+    border-bottom-width: 1px!important;
+    background-color: #dfeaf2;
+}
+
+.x-grid .x-toolbar.x-toolbar-default.x-docked-top {
+    border-bottom-width: 0!important;
+}
+
+
+.x-toolbar.x-toolbar-default.x-docked-bottom {
+    border-top-color: #ccc!important;
+    border-top-width: 1px!important;
+    background-color: #dfeaf2;
+}
+
+.x-toolbar.x-toolbar-default.x-docked-bottom.x-toolbar-paging {
+    border-top-width: 0!important;
+    background-color: #fff;
+}
+
+.x-toolbar.x-toolbar-default.x-docked-left {
+    border-right-color: #ccc!important;
+    border-right-width: 1px!important;
+    background-color: #dfeaf2;
+}
+
+
+.x-toolbar.x-toolbar-default.x-docked-right {
+    border-left-color: #ccc!important;
+    border-left-width: 1px!important;
+    background-color: #dfeaf2;
+}
+
+
+.x-toolbar.x-toolbar-default .x-btn-default-toolbar-small {
+  background-color: #3892d3;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4b9cd7), color-stop(50%, #3892d3), color-stop(51%, #358ac8), color-stop(100%, #3892d3));
+  background-image: -webkit-linear-gradient(top, #4b9cd7, #3892d3 50%, #358ac8 51%, #3892d3);
+  background-image: -moz-linear-gradient(top, #4b9cd7, #3892d3 50%, #358ac8 51%, #3892d3);
+  background-image: -o-linear-gradient(top, #4b9cd7, #3892d3 50%, #358ac8 51%, #3892d3);
+  background-image: linear-gradient(top, #4b9cd7, #3892d3 50%, #358ac8 51%, #3892d3);
+  border-color: #126daf;
+}
+
+.x-nlg .x-btn-default-toolbar-small {
+    background-image: url(images/btn/btn-default-small-bg.gif);
+}
+
+.x-toolbar.x-toolbar-default .x-btn-default-toolbar-small .x-btn-inner {
+    color: #fff;
+}
+
+.x-toolbar.x-toolbar-default .x-btn-default-toolbar-small-over {
+  border-color: #157fcc;
+  background-image: none;
+  background-color: #3386c2;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4792c8), color-stop(50%, #3386c2), color-stop(51%, #307fb8), color-stop(100%, #3386c2));
+  background-image: -webkit-linear-gradient(top, #4792c8, #3386c2 50%, #307fb8 51%, #3386c2);
+  background-image: -moz-linear-gradient(top, #4792c8, #3386c2 50%, #307fb8 51%, #3386c2);
+  background-image: -o-linear-gradient(top, #4792c8, #3386c2 50%, #307fb8 51%, #3386c2);
+  background-image: linear-gradient(top, #4792c8, #3386c2 50%, #307fb8 51%, #3386c2);
+}
+
+.x-toolbar.x-toolbar-default .x-btn-default-toolbar-small-focus {
+  border-color: #157fcc;
+  background-image: none;
+  background-color: #3386c2;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4792c8), color-stop(50%, #3386c2), color-stop(51%, #307fb8), color-stop(100%, #3386c2));
+  background-image: -webkit-linear-gradient(top, #4792c8, #3386c2 50%, #307fb8 51%, #3386c2);
+  background-image: -moz-linear-gradient(top, #4792c8, #3386c2 50%, #307fb8 51%, #3386c2);
+  background-image: -o-linear-gradient(top, #4792c8, #3386c2 50%, #307fb8 51%, #3386c2);
+  background-image: linear-gradient(top, #4792c8, #3386c2 50%, #307fb8 51%, #3386c2);
+}
+
+.x-toolbar.x-toolbar-default .x-btn-default-toolbar-small-menu-active,
+.x-toolbar.x-toolbar-default .x-btn-default-toolbar-small-pressed {
+  border-color: #157fcc;
+  background-image: none;
+  background-color: #2a6d9e;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a6d9e), color-stop(50%, #276796), color-stop(51%, #2a6d9e), color-stop(100%, #3f7ba7));
+  background-image: -webkit-linear-gradient(top, #2a6d9e, #276796 50%, #2a6d9e 51%, #3f7ba7);
+  background-image: -moz-linear-gradient(top, #2a6d9e, #276796 50%, #2a6d9e 51%, #3f7ba7);
+  background-image: -o-linear-gradient(top, #2a6d9e, #276796 50%, #2a6d9e 51%, #3f7ba7);
+  background-image: linear-gradient(top, #2a6d9e, #276796 50%, #2a6d9e 51%, #3f7ba7);
+}
+
+.x-toolbar.x-toolbar-default .x-btn-default-toolbar-small .x-btn-arrow {
+    background-image: url(images/button/default-small-arrow.png);
+}
+
+/*IE8*/
+
+.x-btn-default-toolbar-small-mc {
+    background-image: url(images/btn/btn-default-small-fbg.gif);
+}
+.x-btn-default-toolbar-small-tl,
+.x-btn-default-toolbar-small-bl,
+.x-btn-default-toolbar-small-tr,
+.x-btn-default-toolbar-small-br,
+.x-btn-default-toolbar-small-tc,
+.x-btn-default-toolbar-small-bc,
+.x-btn-default-toolbar-small-ml,
+.x-btn-default-toolbar-small-mr {
+  background-image: url(images/btn/btn-default-small-corners.gif);
+}
+.x-btn-default-toolbar-small-ml,
+.x-btn-default-toolbar-small-mr {
+  background-image: url(images/btn/btn-default-small-sides.gif);
+}
+
+.x-btn-default-toolbar-small-over .x-frame-tl,
+.x-btn-default-toolbar-small-over .x-frame-bl,
+.x-btn-default-toolbar-small-over .x-frame-tr,
+.x-btn-default-toolbar-small-over .x-frame-br,
+.x-btn-default-toolbar-small-over .x-frame-tc,
+.x-btn-default-toolbar-small-over .x-frame-bc {
+  background-image: url(images/btn/btn-default-small-over-corners.gif);
+}
+/* line 577, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-over .x-frame-ml,
+.x-btn-default-toolbar-small-over .x-frame-mr {
+  background-image: url(images/btn/btn-default-small-over-sides.gif);
+}
+/* line 580, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-over .x-frame-mc {
+  background-color: #ebebeb;
+  background-image: url(images/btn/btn-default-small-over-fbg.gif);
+}
+
+/* line 595, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-focus .x-frame-tl,
+.x-btn-default-toolbar-small-focus .x-frame-bl,
+.x-btn-default-toolbar-small-focus .x-frame-tr,
+.x-btn-default-toolbar-small-focus .x-frame-br,
+.x-btn-default-toolbar-small-focus .x-frame-tc,
+.x-btn-default-toolbar-small-focus .x-frame-bc {
+  background-image: url(images/btn/btn-default-small-focus-corners.gif);
+}
+/* line 599, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-focus .x-frame-ml,
+.x-btn-default-toolbar-small-focus .x-frame-mr {
+  background-image: url(images/btn/btn-default-small-focus-sides.gif);
+}
+/* line 602, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-focus .x-frame-mc {
+  background-color: #ebebeb;
+  background-image: url(images/btn/btn-default-small-focus-fbg.gif);
+}
+
+/* line 618, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-menu-active .x-frame-tl,
+.x-btn-default-toolbar-small-menu-active .x-frame-bl,
+.x-btn-default-toolbar-small-menu-active .x-frame-tr,
+.x-btn-default-toolbar-small-menu-active .x-frame-br,
+.x-btn-default-toolbar-small-menu-active .x-frame-tc,
+.x-btn-default-toolbar-small-menu-active .x-frame-bc,
+.x-btn-default-toolbar-small-pressed .x-frame-tl,
+.x-btn-default-toolbar-small-pressed .x-frame-bl,
+.x-btn-default-toolbar-small-pressed .x-frame-tr,
+.x-btn-default-toolbar-small-pressed .x-frame-br,
+.x-btn-default-toolbar-small-pressed .x-frame-tc,
+.x-btn-default-toolbar-small-pressed .x-frame-bc {
+  background-image: url(images/btn/btn-default-small-pressed-corners.gif);
+}
+/* line 622, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-menu-active .x-frame-ml,
+.x-btn-default-toolbar-small-menu-active .x-frame-mr,
+.x-btn-default-toolbar-small-pressed .x-frame-ml,
+.x-btn-default-toolbar-small-pressed .x-frame-mr {
+  background-image: url(images/btn/btn-default-small-pressed-sides.gif);
+}
+/* line 625, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-menu-active .x-frame-mc,
+.x-btn-default-toolbar-small-pressed .x-frame-mc {
+  background-color: #e1e1e1;
+  background-image: url(images/btn/btn-default-small-pressed-fbg.gif);
+}
+
+/* line 640, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-disabled .x-frame-tl,
+.x-btn-default-toolbar-small-disabled .x-frame-bl,
+.x-btn-default-toolbar-small-disabled .x-frame-tr,
+.x-btn-default-toolbar-small-disabled .x-frame-br,
+.x-btn-default-toolbar-small-disabled .x-frame-tc,
+.x-btn-default-toolbar-small-disabled .x-frame-bc {
+  background-image: url(images/btn/btn-default-small-disabled-corners.gif);
+}
+/* line 644, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-disabled .x-frame-ml,
+.x-btn-default-toolbar-small-disabled .x-frame-mr {
+  background-image: url(images/btn/btn-default-small-disabled-sides.gif);
+}
+/* line 647, ../../../ext-theme-neutral/sass/src/button/Button.scss */
+.x-btn-default-toolbar-small-disabled .x-frame-mc {
+  background-color: #f5f5f5;
+  background-image: url(images/btn/btn-default-small-disabled-fbg.gif);
+}

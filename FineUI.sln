@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FineUI", "FineUI\FineUI.csproj", "{0F8BF1F6-DDC2-43DA-BB0B-416CC287AC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FineUI.Examples", "FineUI.Examples\FineUI.Examples.csproj", "{CF702D32-2B3C-4FE7-8916-4C09DBF30289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F8BF1F6-DDC2-43DA-BB0B-416CC287AC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8BF1F6-DDC2-43DA-BB0B-416CC287AC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8BF1F6-DDC2-43DA-BB0B-416CC287AC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8BF1F6-DDC2-43DA-BB0B-416CC287AC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF702D32-2B3C-4FE7-8916-4C09DBF30289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF702D32-2B3C-4FE7-8916-4C09DBF30289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF702D32-2B3C-4FE7-8916-4C09DBF30289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF702D32-2B3C-4FE7-8916-4C09DBF30289}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

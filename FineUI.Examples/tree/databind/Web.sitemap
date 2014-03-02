@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="中国" Expanded="true" NodeID="China">
+    <siteMapNode title="河南省" description="河南省省会" Expanded="true" NodeID="henan">
+      <siteMapNode title="驻马店市" NodeID="zhumadian"  />
+      <siteMapNode title="漯河市" NodeID="luohe"  />
+    </siteMapNode>
+    <siteMapNode title="安徽省" Expanded="true" NodeID="anhui">
+      <siteMapNode title="合肥市" Expanded="true" NodeID="hefei">
+        <siteMapNode title="金色池塘小区" NodeID="golden" />
+        <siteMapNode title="中国科学技术大学（超链接）" url="http://www.ustc.edu.cn/" Target="_blank"  NodeID="ustc" />
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

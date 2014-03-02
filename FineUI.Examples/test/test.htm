@@ -1,0 +1,442 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head><title>
+
+</title>
+<meta name="powered-by" content="FineUI v4.0.2.2 - 基于 ExtJS 的开源 ASP.NET 控件库 - http://fineui.com/" />
+<link href="/extjs/res/ext-theme-neptune/all.css" rel="stylesheet" type="text/css"/>
+<link href="../css/main.css" rel="stylesheet" type="text/css" /></head>
+<body>
+    <form name="form1" method="post" action="grid_editor_cell.aspx" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTk4ODkyNDAwMg9kFgICAw9kFgICAw9kFhYCBw9kFgICAQ8PFgIeBFRleHQFATFkZAIID2QWAgIBDw8WAh8ABQEyZGQCCQ9kFgICAQ8PFgIfAAUBM2RkAgoPZBYCAgEPDxYCHwAFATRkZAILD2QWAgIBDw8WAh8ABQE1ZGQCDA9kFgICAQ8PFgIfAAUBNmRkAg0PZBYCAgEPDxYCHwAFATdkZAIOD2QWAgIBDw8WAh8ABQE4ZGQCDw9kFgICAQ8PFgIfAAUBOWRkAhAPZBYCAgEPDxYCHwAFAjEwZGQCEQ9kFgICAQ8PFgIfAAUCMTFkZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WBwUFR3JpZDEFGUdyaWQxJGN0bDAxJHRieEVkaXRvck5hbWUFFUdyaWQxJGN0bDAyJGRkbEdlbmRlcgUhR3JpZDEkY3RsMDMkdGJ4RWRpdG9yRW50cmFuY2VZZWFyBRdHcmlkMSRjdGwwNCREYXRlUGlja2VyMQUaR3JpZDEkY3RsMDYkdGJ4RWRpdG9yTWFqb3IFB0J1dHRvbjIFBUdyaWQxDw9kZWT1DLeIeEL8EJwArgigWTzCOvubgg==" />
+</div>
+
+<script type="text/javascript">
+    //<![CDATA[
+    var theForm = document.forms['form1'];
+    if (!theForm) {
+        theForm = document.form1;
+    }
+    function __doPostBack(eventTarget, eventArgument) {
+        if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+            theForm.__EVENTTARGET.value = eventTarget;
+            theForm.__EVENTARGUMENT.value = eventArgument;
+            theForm.submit();
+        }
+    }
+    //]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1645A729" />
+</div>
+    <div id='loading-mask'></div><div id='loading'><div class='loading-indicator'><img align='absmiddle' src='/extjs/res/images/loading_32.gif'/></div></div>
+    <div id="Grid1_wrapper"><div id="Grid1_tpls" class="x-grid-tpls x-hide-display"><div class="x-grid-tpl" id="Grid1_ctl07">
+                    <span id="Grid1_ctl07_Label1">1</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl08">
+                    <span id="Grid1_ctl08_Label1">2</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl09">
+                    <span id="Grid1_ctl09_Label1">3</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl10">
+                    <span id="Grid1_ctl10_Label1">4</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl11">
+                    <span id="Grid1_ctl11_Label1">5</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl12">
+                    <span id="Grid1_ctl12_Label1">6</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl13">
+                    <span id="Grid1_ctl13_Label1">7</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl14">
+                    <span id="Grid1_ctl14_Label1">8</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl15">
+                    <span id="Grid1_ctl15_Label1">9</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl16">
+                    <span id="Grid1_ctl16_Label1">10</span>
+                </div><div class="x-grid-tpl" id="Grid1_ctl17">
+                    <span id="Grid1_ctl17_Label1">11</span>
+                </div></div></div>
+    <br />
+    <div id="Button2_wrapper"></div>
+    <br />
+    <br />
+    <div id="labResult_wrapper"></div>
+    <br />
+    
+<script src="/extjs/ext-part1.js" type="text/javascript"></script>
+<script src="/extjs/ext-part2.js" type="text/javascript"></script>
+<script src="/extjs/ext-theme-neptune.js" type="text/javascript"></script>
+<script src="/extjs/lang/zh_CN.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    //<![CDATA[
+    Ext.onReady(function () {
+        F.util.init('side', 100, '：', '/extjs/res/s.gif', true, 'default', true, 'neptune');
+        var f1 = {
+            f_state: {},
+            id: "Grid1_ctl00",
+            text: "&nbsp;",
+            sortable: false,
+            dataIndex: "Grid1_ctl00",
+            width: 60,
+            menuDisabled: false,
+            hideable: true
+        };
+        var f8 = Ext.create('Ext.form.field.Text', {
+            f_state: {},
+            id: "Grid1_ctl01_tbxEditorName",
+            anchor: "-5px",
+            name: "Grid1$ctl01$tbxEditorName",
+            allowBlank: false
+        });
+        var f2 = {
+            f_state: {},
+            id: "Name",
+            text: "姓名",
+            sortable: false,
+            dataIndex: "Name",
+            width: 100,
+            menuDisabled: false,
+            hideable: true,
+            editor: f8
+        };
+        var f9_state = {
+            "F_Items": [["1", "男", 1], ["0", "女", 1]],
+            "F_Items_GZ": "",
+            "SelectedValue": "1"
+        };
+        var f9 = Ext.create('Ext.form.field.ComboBox', {
+            f_state: f9_state,
+            id: "Grid1_ctl02_ddlGender",
+            anchor: "-5px",
+            name: "Grid1$ctl02$ddlGender",
+            allowBlank: false,
+            editable: false,
+            forceSelection: true,
+            hiddenName: "Grid1_ctl02_ddlGender_Value",
+            store: Ext.create('Ext.data.ArrayStore', {
+                fields: ['value', 'text', 'enabled', 'prefix'],
+                data: F.simulateTree.transform(f9_state.F_Items)
+            }),
+            value: f9_state.SelectedValue,
+            tpl: F.util.ddlTPL,
+            queryMode: "local",
+            triggerAction: "all",
+            listeners: {
+                beforeselect: function (cmp, record, index) {
+                    if (!record.data.enabled) {
+                        return false;
+                    }
+                }
+            }
+        });
+        var f3 = {
+            f_state: {},
+            id: "Gender",
+            text: "性别",
+            sortable: false,
+            dataIndex: "Gender",
+            width: 100,
+            menuDisabled: false,
+            hideable: true,
+            renderer: renderGender,
+            editor: f9
+        };
+        var f10 = Ext.create('Ext.form.field.Number', {
+            f_state: {},
+            id: "Grid1_ctl03_tbxEditorEntranceYear",
+            anchor: "-5px",
+            name: "Grid1$ctl03$tbxEditorEntranceYear",
+            allowDecimals: false,
+            allowNegative: false,
+            maxValue: 2010,
+            minValue: 2000
+        });
+        var f4 = {
+            f_state: {},
+            id: "EntranceYear",
+            text: "入学年份",
+            sortable: false,
+            dataIndex: "EntranceYear",
+            width: 100,
+            menuDisabled: false,
+            hideable: true,
+            editor: f10
+        };
+        var f11 = Ext.create('Ext.form.field.Date', {
+            f_state: {},
+            id: "Grid1_ctl04_DatePicker1",
+            anchor: "-5px",
+            name: "Grid1$ctl04$DatePicker1",
+            allowBlank: false,
+            format: "Y-m-d",
+            altFormats: "Y-m-d|Y-n-j|Ymd|Ynj|y-m-d|y-n-j|ymd|ynj"
+        });
+        var f5 = {
+            f_state: {},
+            id: "EntranceDate",
+            text: "入学日期",
+            sortable: false,
+            dataIndex: "EntranceDate",
+            width: 120,
+            menuDisabled: false,
+            hideable: true,
+            renderer: F.format.date('Y-m-d'),
+            editor: f11
+        };
+        var f6 = {
+            f_state: {},
+            id: "AtSchool",
+            text: "是否在校",
+            sortable: false,
+            dataIndex: "AtSchool",
+            width: 100,
+            menuDisabled: false,
+            hideable: true,
+            xtype: "checkcolumn"
+        };
+        var f12 = Ext.create('Ext.form.field.Text', {
+            f_state: {},
+            id: "Grid1_ctl06_tbxEditorMajor",
+            anchor: "-5px",
+            name: "Grid1$ctl06$tbxEditorMajor",
+            allowBlank: false
+        });
+        var f7 = {
+            f_state: {},
+            id: "Major",
+            text: "所学专业",
+            sortable: false,
+            dataIndex: "Major",
+            width: 100,
+            flex: 1,
+            menuDisabled: false,
+            hideable: true,
+            editor: f12
+        };
+        var f0_state = {
+            "RecordCount": 11,
+            "F_Rows": {
+                "Values": [["#@TPL@#ctl07", "张萍萍", "0", "2000", "2000-09-01T00:00:00", "true", "材料科学与工程系"], ["#@TPL@#ctl08", "陈飞", "1", "2001", "2001-09-01T00:00:00", "false", "化学系"], ["#@TPL@#ctl09", "董婷婷", "0", "2008", "2008-09-01T00:00:00", "true", "化学系"], ["#@TPL@#ctl10", "刘国", "1", "2002", "2002-09-01T00:00:00", "false", "化学系"], ["#@TPL@#ctl11", "康颖颖", "0", "2008", "2008-09-01T00:00:00", "true", "数学系"], ["#@TPL@#ctl12", "彭博", "1", "2003", "2003-09-01T00:00:00", "false", "数学系"], ["#@TPL@#ctl13", "黄倩倩", "0", "2000", "2000-09-01T00:00:00", "true", "数学系"], ["#@TPL@#ctl14", "唐超", "1", "2004", "2004-09-01T00:00:00", "false", "物理系"], ["#@TPL@#ctl15", "杨娟娟", "0", "2003", "2003-09-01T00:00:00", "true", "物理系"], ["#@TPL@#ctl16", "徐鹏", "1", "2002", "2002-09-01T00:00:00", "false", "物理系"], ["#@TPL@#ctl17", "纪玲玲", "0", "2006", "2006-09-01T00:00:00", "true", "自动化系"]],
+                "DataKeys": [[101, "张萍萍"], [102, "陈飞"], [103, "董婷婷"], [104, "刘国"], [105, "康颖颖"], [106, "彭博"], [107, "黄倩倩"], [108, "唐超"], [109, "杨娟娟"], [110, "徐鹏"], [111, "纪玲玲"]],
+                "States": [[], [], [], [], [], [], [], [], [], [], []]
+            },
+            "F_Rows_GZ": ""
+        };
+        var f0_selModel = Ext.create('Ext.selection.CellModel', {});
+        var f0_store = Ext.create('Ext.data.ArrayStore', {
+            fields: [{
+                name: "Grid1_ctl00"
+            },
+            {
+                name: "Name",
+                type: "string"
+            },
+            {
+                name: "Gender",
+                type: "int"
+            },
+            {
+                name: "EntranceYear",
+                type: "int"
+            },
+            {
+                name: "EntranceDate",
+                type: "date"
+            },
+            {
+                name: "AtSchool",
+                type: "boolean"
+            },
+            {
+                name: "Major",
+                type: "string"
+            }],
+            remoteSort: true,
+            listeners: {
+                beforeload: function (store, operation) {
+                    var sorter = operation.sorters[0];
+                    if (sorter) {
+                        __doPostBack('Grid1', 'Sort$' + sorter.property + '$' + sorter.direction);
+                    }
+                    return false;
+                }
+            }
+        });
+        var f0_columns = [f1, f2, f3, f4, f5, f6, f7];
+        var Grid1_celledit = Ext.create('Ext.grid.plugin.CellEditing', {
+            pluginId: "Grid1_celledit",
+            clicksToEdit: 1
+        });
+        var f0 = Ext.create('Ext.grid.Panel', {
+            f_state: f0_state,
+            id: "Grid1",
+            renderTo: "Grid1_wrapper",
+            width: 850,
+            height: 350,
+            frame: true,
+            bodyStyle: "",
+            border: true,
+            animCollapse: true,
+            collapsible: true,
+            collapsed: false,
+            title: "表格",
+            selModel: f0_selModel,
+            columns: f0_columns,
+            store: f0_store,
+            draggable: false,
+            enableColumnMove: false,
+            enableDragDrop: false,
+            plugins: [Grid1_celledit],
+            listeners: {
+                viewready: function (cmp) { },
+                render: function (cmp) {
+                    cmp.f_loadData();
+                }
+            }
+        });
+        var f13 = Ext.create('Ext.button.Button', {
+            f_state: {},
+            id: "Button2",
+            renderTo: "Button2_wrapper",
+            text: "保存数据",
+            handler: function () {
+                F.disable('Button2');
+                __doPostBack('Button2', '');
+            }
+        });
+        var f14 = Ext.create('Ext.form.field.Display', {
+            f_state: {},
+            id: "labResult",
+            renderTo: "labResult_wrapper",
+            anchor: "-5px",
+            name: "labResult",
+            value: ""
+        });
+        F.util.removePageLoading(false);
+        F.util.triggerReady();
+
+        Ext.create('Ext.data.Store', {
+            storeId: 'simpsonsStore',
+            fields: ['name', 'email', 'phone', 'id'],
+            data: {
+                'items': [
+                    { "name": "Lisa", "email": "lisa@simpsons.com", "phone": "555-111-1224", "id": "0" },
+                    { "name": "Bart", "email": "bart@simpsons.com", "phone": "555-222-1234", "id": "1" },
+                { "name": "Homer", "email": "home@simpsons.com", "phone": "555-222-1244", "id": "2" },
+                { "name": "Marge", "email": "marge@simpsons.com", "phone": "555-222-1254", "id": "3" }
+                ]
+            },
+            proxy: {
+                type: 'memory',
+                reader: {
+                    type: 'json',
+                    root: 'items'
+                }
+            }
+        });
+
+        // the renderer. You should define it within a namespace
+        var comboBoxRenderer = function (combo) {
+            return function (value) {
+                var idx = combo.store.find(combo.valueField, value);
+                var rec = combo.store.getAt(idx);
+                return (rec === null ? '' : rec.get(combo.displayField));
+            };
+        }
+        // the combo store
+        var store = new Ext.data.ArrayStore({
+           // fields: ["value", "text"],
+           //   data: [ ["1", "Option 1"],["2", "Option 2"]]
+            fields: ['value', 'text', 'enabled', 'prefix'],
+            data:  [["1", "男", 1], ["0", "女", 1]] //F.simulateTree.transform(f9_state.F_Items)
+        });
+        // the edit combo
+       
+        var combo = new Ext.form.ComboBox({
+            store: store,
+            valueField: "value",
+            displayField: "text"
+        });
+        
+        /*
+        var combo = Ext.create('Ext.form.field.ComboBox', {
+            f_state: f9_state,
+          //  id: "Grid1_ctl02_ddlGender",
+         //   anchor: "-5px",
+          //  name: "Grid1$ctl02$ddlGender",
+          //  allowBlank: false,
+          //  editable: false,
+           // forceSelection: true,
+          //  hiddenName: "Grid1_ctl02_ddlGender_Value",
+            store: Ext.create('Ext.data.ArrayStore', {
+                fields: ['value', 'text', 'enabled', 'prefix'],
+                data: F.simulateTree.transform(f9_state.F_Items)
+            }),
+          //  value: f9_state.SelectedValue,
+          //  tpl: F.util.ddlTPL,
+          //  queryMode: "local",
+         //   triggerAction: "all",
+            listeners: {
+                beforeselect: function (cmp, record, index) {
+                    if (!record.data.enabled) {
+                        return false;
+                    }
+                }
+            }
+        });
+        */
+
+
+        // demogrid
+        Ext.create('Ext.grid.Panel', {
+            title: 'Simpsons',
+            store: Ext.data.StoreManager.lookup('simpsonsStore'),
+            columns: [
+                { header: 'Name', dataIndex: 'name', editor: 'textfield' },
+                {
+                    header: 'Email', dataIndex: 'email', flex: 1,
+                    editor: {
+                        xtype: 'textfield',
+                        allowBlank: false
+                    }
+                },
+                { header: 'Phone', dataIndex: 'phone' },
+                { header: 'id', dataIndex: 'id', editor: combo, renderer: comboBoxRenderer(combo) }
+            ],
+            selType: 'cellmodel',
+            plugins: [
+                Ext.create('Ext.grid.plugin.CellEditing', {
+                    clicksToEdit: 1
+                })
+            ],
+            height: 200,
+            width: 400,
+            renderTo: Ext.getBody()
+        });
+
+
+    });//]]>
+</script>
+</form>
+    <script>
+
+        function renderGender(value) {
+            return value == 1 ? '男' : '女';
+        }
+
+
+        function renderAtSchool(value, metadata, record, rowIndex, colIndex) {
+            return value ? '<img src="../extjs/res/images/tick.png" alt="YES"/>' : '<img src="../extjs/res/images/bullet_cross.png" alt="NO"/>';
+        }
+
+
+    </script>
+</body>
+</html>
